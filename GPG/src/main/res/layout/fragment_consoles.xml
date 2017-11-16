@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cheapassapps.app.gamingpriceguide.Fragments.ConsolesFragment">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+<!--
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:numColumns="1"
+        android:columnWidth="auto-fit"
+        android:animateLayoutChanges="true"
+        android:stretchMode="spacingWidthUniform">
+
+    </GridView>-->
+
+</FrameLayout>
